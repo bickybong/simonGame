@@ -52,8 +52,6 @@ function gameStart(){
     
 }
 
-
-
 function animatePress(color){
     $(`.${color}`).toggleClass("pressed");
     setTimeout(function(){
